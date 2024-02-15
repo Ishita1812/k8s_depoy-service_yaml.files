@@ -6,9 +6,10 @@ metadata:
   name: dashboard
 spec:
   ports:
-  - port: 8085
+  - port: 8084
     protocol: TCP
-    targetPort: 8085
+    targetPort: 8084
   selector:
     app: dashboard
   type: ClusterIP
+

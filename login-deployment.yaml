@@ -15,11 +15,11 @@ spec:
         app: login
     spec:
       containers:
-      - image: kharatramesh/vadapavimages:itc-login
+      - image: ishita1/itc-project:itc-login-image
         name: login
         env:
         - name: "spring.datasource.username"
           value: root
         - name: "spring.datasource.password"
-          value: root
+          value: root1234
 
